@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>City</title>   
+ <style type="text/css">
+ 	/*images downloaded from the website br.freepik.com*/
+body{
+  	  margin: 0;
+  	padding: 0;
+  }
+
+.background{
+  	height: 100vh;
+  	background: url('img/city.jpg');
+  	background-position: bottom left;
+  	animation: driving 15s linear infinite;
+  }
+
+@keyframes driving {
+  	from { background-position:  bottom left; }
+
+  	to {background-position:  bottom right;}
+  }
+
+.car {
+  	position: absolute;
+  	left: 200px;
+  	bottom: -50px;
+  	width: 200px;
+
+  }
+.car2 {
+  	position: absolute;
+  	left: 950px;
+  	bottom: -50px;
+  	width: 200px;
+
+  }
+
+.car3 {
+  	position: absolute;
+  	left: 500px;
+  	bottom: -50px;
+  	width: 200px;
+
+  }
+
+.motorbike2 {
+  	position: absolute;
+  	left: 700px;
+  	bottom: 55px;
+  	width: 150px;
+
+  }
+
+ .motorbike {
+  	position: absolute;
+  	left: 80px;
+  	bottom: 55px;
+  	width: 150px;
+
+  }
+ </style>      
+ </head>
+
+<body>
+
+  <div class="background">
+  	<img src="img/car.png" class="car">
+  	<img src="img/motobike.png" class="motorbike">
+  	<img src="img/car3.png" class="car3">
+  	<img src="img/car2.png" class="car2">  	
+  	<img src="img/moto.png" class="motorbike2">  	
+  </div>
+  
+</body>
+</html>
